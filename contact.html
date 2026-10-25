@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>اتصل بنا | الجامعة</title>
+    <meta name="description" content="تواصل مع الجامعة عبر الهاتف، البريد الإلكتروني أو النموذج المخصص." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="الجامعة التونسية">
+          <span class="brand-mark">U</span>
+          <div>
+            <strong>الجامعة</strong>
+            <small>التعليم والبحث</small>
+          </div>
+        </a>
+
+        <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav">
+          <a href="index.html">الرئيسية</a>
+          <a href="about.html">من نحن</a>
+          <a href="formations.html">التكوين</a>
+          <a href="actualites.html">الأنشطة</a>
+          <a href="contact.html" class="active">اتصل بنا</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small-hero">
+        <div class="container page-hero-inner">
+          <span class="pill">تواصل معنا</span>
+          <h1>نحن هنا للإجابة على أسئلتك</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h3>معلومات التواصل</h3>
+            <ul>
+              <li><strong>العنوان:</strong> تونس، شارع المثال 123</li>
+              <li><strong>الهاتف:</strong> +216 00 000 000</li>
+              <li><strong>البريد:</strong> contact@university.tn</li>
+              <li><strong>الساعة:</strong> من 08:00 إلى 16:00</li>
+            </ul>
+          </div>
+
+          <form class="contact-form">
+            <div class="field-group">
+              <label>الاسم الكامل</label>
+              <input type="text" placeholder="أدخل اسمك" />
+            </div>
+            <div class="field-group">
+              <label>البريد الإلكتروني</label>
+              <input type="email" placeholder="name@example.com" />
+            </div>
+            <div class="field-group">
+              <label>الموضوع</label>
+              <input type="text" placeholder="موضوع الرسالة" />
+            </div>
+            <div class="field-group">
+              <label>الرسالة</label>
+              <textarea rows="5" placeholder="اكتب رسالتك هنا..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <h3>الجامعة</h3>
+          <p>مؤسسة تعليمية تهدف إلى بناء مستقبل مشرق للشباب والبحث العلمي.</p>
+        </div>
+        <div>
+          <h4>روابط سريعة</h4>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="formations.html">التكوين</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>معلومات الاتصال</h4>
+          <ul>
+            <li>العنوان: تونس</li>
+            <li>الهاتف: +216 00 000 000</li>
+            <li>البريد: contact@university.tn</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container bottom-bar">
+        <span>© <span id="year"></span> جميع الحقوق محفوظة</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
